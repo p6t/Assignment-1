@@ -83,7 +83,7 @@ class lif_neuron:
         ax.legend()
         ax.set(
             xlabel='Voltage (mV)', ylabel='Spike Rate (hz)',
-            title="LIF Neuron Simulation: Rate as Function of Voltage"
+            title="LIF Neuron Simulation: Rate as Function of Voltage, Resistance = {}".format(self.resistance)
         )
         plt.show()
         return 0
